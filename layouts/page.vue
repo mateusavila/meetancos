@@ -26,8 +26,10 @@ html
   -moz-osx-font-smoothing: grayscale
   -webkit-font-smoothing: antialiased
   box-sizing: border-box
-  background #fafafa
-  font-family: 'Roboto', sans-serif;
+  background #fefefe
+  font-family: 'Roboto', sans-serif
+body
+  font-family: 'Roboto', sans-serif
 *, *::before, *::after
   box-sizing: border-box
 .container

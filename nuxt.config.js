@@ -7,16 +7,19 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    htmlAttrs: {
+      lang: 'pt-BR'
+    },
     title: 'Meetanços - Vue.JS',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Este é a palestra sobre Vue.js que iremos falar para o Meetanços de 31/10/2020.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preload', href: '//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700,900&display=swap', as:"style", crossorigin: 'anonymous' },
-      { rel: 'stylesheet', href: '//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700,900&display=swap', crossorigin: 'anonymous' },
+      { rel: 'preload', href: '//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap', as:"style", crossorigin: 'anonymous' },
+      { type:'text/css', rel:'stylesheet', href: '//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap', crossorigin: 'anonymous' },
     ]
   },
 
